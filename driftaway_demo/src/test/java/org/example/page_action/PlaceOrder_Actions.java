@@ -81,8 +81,7 @@ public class PlaceOrder_Actions {
     public void selectHowLong() throws InterruptedException, IOException {
         placeOrderElements.howLong.click();
         Thread.sleep(2000);
-        File ScreenShot1=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(ScreenShot1,new File("./screenshot/giftPage.png"));
+        
 
     }
     public void clickHomeNextButton() throws InterruptedException, IOException {
@@ -102,8 +101,7 @@ public class PlaceOrder_Actions {
     public void clickGearPageNextButton() throws InterruptedException, IOException {
         placeOrderElements.gearNextButton.click();
         Thread.sleep(2000);
-        File ScreenShot2=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(ScreenShot2,new File("./screenshot/gearPage.png"));
+
 
     }
 
